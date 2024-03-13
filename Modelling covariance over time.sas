@@ -7,6 +7,7 @@ PROC MIXED DATA=X
   DDFM=KR; *Kenward-Roger approximation;
   Random INT / Subject=patient_ID;
   LSMEANS varibale*TIME/DIFFS;
+Run;
 
 
 
